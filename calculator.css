@@ -1,0 +1,77 @@
+@font-face {
+    font-family: digital;
+    src: url(PressStart2P-Regular.ttf);
+  }
+
+body{
+    font-family: 'digital', 'monospace';
+}
+
+img{
+    height: 3vh;
+}
+
+.calculator{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    background-color: silver;
+    border-radius: 2vh;
+    padding: 2vh;
+}
+
+.screen{
+    font-family: 'digital', 'monospace';
+    background-color: black;
+    border: 1vh solid grey;
+    border-radius: 1vh;
+    color: honeydew;
+    font-size: 2vh;
+    height: 16vh;
+    text-align: right;
+    vertical-align: bottom;
+    width: 95%;
+}
+
+td{
+    border: 1vh solid silver;
+    border-radius: 1vh;
+}
+
+textarea{
+    resize: vertical; 
+    max-height: 10vh;
+}
+
+button{
+    font-family: 'digital', 'monospace';
+    background-color: #222222 ;
+    border: 1vh solid  #222222 ;
+    outline: .6vh solid #222222;
+    border-radius: .5vh;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    width: 8vh;
+}
+button:hover { 
+    background-color:  black;
+    border: 1vh solid  black ;
+    outline: 0.6vh solid black;
+}
+button:active {
+    background-color: black ;
+    border: 1vh solid  black ;
+    outline: .5vh solid silver;
+}
+
+
+.square {
+    height: 8vh;
+}
+
+.rectangle {
+    height: 19vh;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Simple Calculator</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <table>
+            <tr>
+                <td colspan="4"><textarea id="terminal" class="screen" placeholder="&#169; Sinku Kumar"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="4"> <a href="https://www.github.com/sinkukumar"><img src = "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub"></a></td>
+            </tr>
+            <tr>
+                <td><button class="square" id="ac" onclick="javascript:clearScreen()">C</button></td>
+                <td><button class="square" onclick="javascript:input('/')">/</button></td>
+                <td><button class="square" onclick="javascript:input('*')">*</button></td>
+                <td><button class="square" onclick="javascript:input('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="square" onclick="javascript:input('7')">7</button></td>
+                <td><button class="square" onclick="javascript:input('8')">8</button></td>
+                <td><button class="square" onclick="javascript:input('9')">9</button></td>
+                <td rowspan="2"><button class="rectangle" onclick="javascript:input('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button class="square" onclick="javascript:input('4')">4</button></td>
+                <td><button class="square" onclick="javascript:input('5')">5</button></td>
+                <td><button class="square" onclick="javascript:input('6')">6</button></td>
+            </tr>
+            <tr>
+                <td><button class="square" onclick="javascript:input('1')">1</button></td>
+                <td><button class="square" onclick="javascript:input('2')">2</button></td>
+                <td><button class="square" onclick="javascript:input('3')">3</button></td>
+                <td rowspan="2"><button class="rectangle" id="equal" onclick="javascript:calculate()">=</button></td>
+            </tr>
+            <tr>
+                <td><button class="square" onclick="javascript:input('0')">0</button></td>
+                <td><button class="square" onclick="javascript:backspace()">B</button></td>
+                <td><button class="square" onclick="javascript:input('.')">.</button></td>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript" src="calculator.js"></script>
+</body>
+
+</html>
