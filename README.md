@@ -1,5 +1,7 @@
-# SimpleCalculator
-A simple calculator
+# Calculator
+A simple calculator using HTML, CSS and JavaScript.
+
+![Calculator](https://raw.githubusercontent.com/SinkuKumar/Calculator/main/Calculator.png)
 
 View on:
 [Github Pages](https://sinkukumar.github.io/Calculator/)
