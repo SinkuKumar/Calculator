@@ -1,4 +1,5 @@
 # Calculator
+
 -A simple calculator performing arithmetic operations using HTML, CSS and JavaScript.
 
 ![Calculator](https://raw.githubusercontent.com/SinkuKumar/Calculator/main/Calculator.png)
